@@ -1,0 +1,218 @@
+.Navbar {
+  background-color: Navy;
+  display: flex;
+  padding: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Navbar__Items {
+  display:flex;
+}
+
+.Navbar__Link {
+  padding-right:   35px;
+  margin: 10px;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+  padding-top: 30px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.logo-img{
+    position: center;
+    margin: 30px 15px 15px 16px;
+    left: 0;
+    display:inline;
+    line-height: 32px;
+    padding: 2em;
+    border-radius: 50px 20px;
+}
+.icon-bar {
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+    {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#gap {
+    width: 100px;
+    height: 3px;
+    border: 0px solid black;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    background: #ccc;
+    border: 1px solid black;
+    height: 100px
+}
+
+#headerBar1 {
+    height: 40px;
+    background: blue;
+    width: 400px;
+    margin-left: auto;
+}
+#headerBar2 {
+    height: 40px;
+    background: blue;
+    width: 400px;
+}
+
+#headerBar3 {
+    height: 40px;
+    background: blue;
+    width: 400px;
+    margin-left: auto;
+}
+
+.form-control {
+    display: block;
+    width:200px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: purple;
+    background-color: purple;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+   }
+   h2{
+   	color: green;
+   	font-family: sans-serif;
+   	text-align: center;
+   }
+/*----Compare the cars---*/
+
+   /*-------Footer------*/
+
+.col { 
+  background: navy;
+  float: left;
+  padding: 30px 0 0 90px;
+  width: 350px;
+  margin: 5 45px 0 0;
+}
+ 
+
+h2 { 
+  
+  color: white;
+  float: left; 
+  font: bold 18px Arial, Helvetica, sans-serif; 
+     margin: 0 0 10px 0; 
+  padding: 18px 0 0 19px; 
+  height: 33px; 
+  width: 291px;
+  text-align: left;
+}
+ 
+ul { 
+  list-style: none; 
+  margin: 2px; 
+  padding: 0; 
+}
+ 
+li { 
+  
+  border-bottom: 1px  #25c3ba; 
+  border-top: 1px  #25c3ba; 
+  float: left; 
+  height: 20px; 
+  margin: 5px 0;
+  padding: 5px; 
+  width: 210px; 
+}
+ 
+li a { 
+  color: white;
+  display: block;
+  float: left; 
+  font: normal 12px Verdana, Geneva, sans-serif; 
+  padding: 10px 0 0 19px; 
+  text-decoration: none;
+}
+ 
+li:hover { 
+  background: navy;
+}
+
+.boxed {
+
+  border: 9px;
+  background-color: purple;
+  height: 110px;
+  width: 1319px;
+
+}
+
+h5{
+   text-align: center;
+   font-size: 30px;
+   font-family:sans-serif;
+   color:white;
+   padding-top: 40px;
+
+}
+h6{
+    font-size: 30px;
+    text-align: center;
+    color:green;
+    padding-top: 1px;
+}
