@@ -1,0 +1,385 @@
+body {
+
+	font-family: Arial, Helvetica ,nasan-serif;
+	font-size: 15px;
+	line-height:1.5;
+	padding: 0;
+	margin: 0;
+	background color: #f4f4f4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*header */
+
+/*  toggle*/
+
+
+.container1 {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+header{
+	background: #000080;
+	color: #ffffff;
+	padding-top: 25px;
+	min-height: 50px;
+	padding-bottom: 30px;
+	border-bottom: #228B22 solid 16px;
+	padding-left: 20px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+ ul{
+
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{ 
+	height: 85px;
+	width: 150px;
+	background: #800080;
+	border: 0;
+	padding-left: 20px;
+	color: #ffffff;
+	padding-right: 20px;
+	font-size: 20px;
+ }
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+
+}
+
+#showcase {
+	min-height: 600px;
+	background: url('../images/car.jpg') 0 -600px;
+	text-align: center;
+	color: #ffffff;
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	float: left ;
+
+}
+#showcase form{
+	margin-top: 15px;
+}
+
+#showcase input[type="text"]{
+	padding: 4px;
+	height: 75px;
+	width: 750px;
+}
+
+/* Boxes */
+#purchase {
+  margin-top:20px;
+}
+
+#purchase .box{
+  float:left;
+  text-align: center;
+  width:23%;
+  padding:10px;
+}
+
+#purchase .box img{
+  width:90px;
+}
+
+
+h4 {
+
+	text-align: center;
+	font-size: 20px;
+	color:grey;
+}
+
+
+
+.col { 
+  background: navy;
+  float: left;
+  padding: 30px 0 0 80px;
+  width: 350px;
+  color: #ffffff;
+  
+  
+}
+ 
+
+h2 { 
+  
+  color: #ffffff;
+  float: left; 
+  font: bold 18px Arial, Helvetica, sans-serif; 
+     margin: 0 0 0 0; 
+  padding: 18px 0 0 19px; 
+  height: 33px; 
+  width: 291px;
+  text-align: center;
+}
+
+/*budget--*/
+label {
+   width: 210px;
+   height: 50px; 
+   float: left;
+    margin: 0 20px 3 0; 
+    padding: 0 7px 0 7px;
+  }
+
+span { 
+  display: block;
+   margin: 2 2 3px;
+    font-size: 1px; 
+    font-weight: bold;
+    padding: 10px;
+   }
+
+input { 
+  width: 130px; 
+  height: 35px;
+  border: 1px solid grey;
+   padding-: 2px; 
+  }
+
+  /* ---- image gallery---*/
+
+  .works {
+  margin-top: 4em;
+}
+
+.works h3 {
+  color: #EB523D;
+  margin-bottom: 1em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.grid_4 {
+  width: 22%;
+  float: left;
+  margin: 0 3% 0% 0;
+}
+
+.text1 p {
+  color: #9A9598;
+  line-height: 1.9em;
+  font-size: 0.9em;
+}
+
+.text1 img {
+  width: 100%;
+}
+
+.text1 h4 {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Ubuntu-Medium';
+  margin: 0.5em 0;
+}
+h3{
+	text-align:left;
+
+}
+/*---compare cars--*/
+.boxed {
+
+  border: 9px;
+  background-color: purple;
+  height: 110px;
+  width: 1319px;
+  }
+
+  span{
+   text-align: center;
+   font-size: 30px;
+   font-family:sans-serif;
+   color:white;
+   padding-top: 40px;
+   padding-bottom:40px;
+   margin- left:20px;
+}
+
+h6{
+    font-size: 30px;
+    text-align: center;
+    color:green;
+    padding-top: 1px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/*---analysis of two cars--*/
+
+ /*--column table---*/
+   .wp-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.wp-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.wp-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table th:first-child, 
+.wp-table td:first-child {
+    padding-left: 16px;
+}
+
+
+.wp-table td, 
+.wp-table th {
+    padding: 16px 16px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.wp-table th {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: purple;
+}
+ 
+.wp-table {
+    font-size: 23px!important;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+tr.bordered {
+    border-bottom: 1px solid #000;
+}
+    .row h3{
+    	text-align: center;
+    }
+    
+/*---form section--*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  }
+}
